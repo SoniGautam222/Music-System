@@ -1,0 +1,419 @@
+/* head section */
+*{
+   
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #081232;
+   
+}
+nav{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:0 1rem 1rem;
+}
+.logo{
+    height:60px;
+    width: 60px;
+    display: flex;
+     /* margin-left: 50px; */
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+
+}
+.fav{
+   height: 8vh;
+   width: 100px;
+}
+.search{
+    display: flex;
+    padding-right: 90px;
+    justify-content: space-between;
+}
+/* main section */
+
+main{
+    width: 68vw;
+    margin-top: 2%;
+    display: flex;
+    height: 38vh;
+    margin-left: 70px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    
+ 
+}
+
+.box img{
+    height: 18vw;
+    width: 22.5vw;
+    margin-left: -30px;
+    
+}
+.section-1{
+    background: transparent;
+}
+.box{
+    transition: all ease-in-out 0.5s;
+    justify-content: space-between;
+}   
+.box img{
+    transition: 0.5s;
+    margin-left: -30px;
+    justify-content: space-between;
+    
+
+}
+.box:hover{
+    transform: scale(1.3);
+    transition: all ease-in-out 1s;
+}
+/* Latest Realaese */
+.latest-rel{
+    /* border: 2px solid black; */
+    height: 30vh;
+    width: 68vw;
+    margin-left: 48px;    
+}
+.part-one{
+    display: flex;
+    height: 14vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+}
+
+.picture-desc{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    width: 50%;
+}
+.pic{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.pic>div{
+    height: 100%;
+    width: 50%;
+}
+.pic img{
+    width: 25%;
+}
+.image-sidhu a img{
+    height: 100%;
+    width: 100%;
+}
+.singer-info{
+    padding-left: 1rem;
+}
+.part-two{
+display: flex;
+}
+.options{
+    width: 20%;
+    /* border: 2px solid black; */
+
+}
+
+/* popular artist part */
+.popular-artist{
+    height: 30vh;
+    width: 68vw;
+    /* border: 2px solid black; */
+    margin-left: 20px;
+  
+}
+.artist-part{
+    display: flex;
+}
+.artist-images img{
+    opacity: 0.8;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+}
+.name-of-the-artist{
+    text-align: center;
+}
+
+/* music station part */
+.music-station{
+    display: flex;
+    height: 25vh;
+    width: 68vw;
+    /* border: 2px solid black; */
+    margin-top: 65px;
+    margin-left: 48px;
+    background-color: #09092e !important; 
+    /* background-color: red; */
+}
+.music-station-image{
+    height: 100px;
+    width: 100px;
+    margin-top: 35px;
+    margin-left: 8px;
+}
+.msimg img{
+    opacity: 0.6;
+    border-radius: 50%;
+    height: 150px;
+    width: 110px;
+    margin-left: 26px;   
+    
+}
+
+/* three images together */
+.three-images{
+    display: flex;
+    height: 30vh;
+    width: 70vw;
+    /* border: 2px solid black; */
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.three-images img{
+    opacity: 0.4;
+    margin-left: 8px;
+}
+.img1{
+    width: 280px;
+    margin-right: 40px;
+
+}
+.party{
+    position: relative;
+}
+.party:hover{
+    transform: scale(1.3);
+    transition: all ease-in-out 0.5s;
+
+}
+.party-text{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    position: absolute ;
+    top : 0;
+    left: 0;
+    text-align: center;
+    margin-top: 25%;
+}
+.img2{
+    width: 280px;
+    margin-right: 40px;
+}
+.electronic{
+    position: relative;
+}
+.electronic:hover{
+    transform: scale(1.3);
+    transition: all ease-in-out 0.5s;
+}
+.ele-dec{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    position: absolute ;
+    top : 0;
+    left: 0;
+    text-align: center;
+    margin-top: 25%;
+
+}
+
+.img3{
+    width: 280px;
+}
+.road-trip{
+    position: relative;
+}
+.road-trip:hover{
+    transform: scale(1.3);
+    transition: all ease-in-out 0.5s;
+}
+.road{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    position: absolute ;
+    top : 0;
+    left: 0;
+    text-align: center;
+    margin-top: 25%;
+}
+.latest-English{
+    margin-left: 50px;
+    height: 45vh;
+    width: 70vw;
+    /* border: 2px solid black; */
+}
+.eng-images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    opacity: 0.6;
+}
+.part{
+    height: 100%;
+    width: 150px;
+    /* border: 2px solid black;  */
+
+}
+
+
+/* Aside section part */
+.aside-section{
+    height: 250vh;
+    width: 280px;
+    /* border: 2px solid black; */
+    margin-left: 170px;
+
+}
+.queue{
+    display: flex;
+}
+.drop-down{
+    margin-left: 70px;
+    color: aqua;
+    display: flex;
+    /* margin-right: 15px; */
+}
+.fa-sharp{
+    color: aqua;
+}
+.queue-name{
+    height: 50px;
+    /* border: 2px solid black; */
+}
+.playlist-conatiner{
+    margin-top: 8px;
+    /* border: 2px solid black; */
+    height: 80px;
+   
+}
+/* .playist-items{
+   
+} */
+.playlist-number{
+    height: 40px;
+    width: 20px;
+    display: flex;
+  
+   
+}
+.playlist-image img{
+    height: 70px;
+    width: 60px;
+    /* display: flex; */
+    margin-left: 15px;
+}
+.playlist-image{
+    display: flex;
+}
+.playlist-desc{
+    height: 10px;
+    width: 70px;
+    /* border: 2px solid black; */
+}
+.heart{
+    margin-left: 70px;
+    margin-top: 30px;
+   text-align: end;
+}
+
+/* Footer part */
+.footer{
+ 
+    display: flex;
+    background-color: #121520;
+    height: 60px;
+    
+    /* border: 2px solid black; */
+   /* position: fixed; */
+
+   position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.footer-img{
+    display: flex;
+}
+.footer-img img{
+    margin-top: 10px;
+    height: 80%;
+    margin-left: 80px;
+    width: 100px;
+    
+}
+.footer-desc{
+    margin-top: 20px;
+    display: flex;
+}
+.fa-regular{
+    margin-top: 20px;
+}
+.fa-sharp{
+    color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.footer-div-2-content{
+    height: 100%;
+    width: 600px;
+    text-align: center;
+    /* border: 2px solid black; */
+
+}
+.fa-shuffle{
+    margin-right: 40px;
+}
+.fa-backward-step{
+    margin-right: 40px;
+}
+.fa-circle-play{
+    margin-right: 40px;
+}
+
+.fa-forward-step{
+    margin-right: 40px;
+}
+
+/* right side queue part is here */
+#here{
+    height: 0;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+#here:target{
+    height:10%;
+    width:20%;
+    /* top:25%;
+    left:25%; */
+    margin-left: 80%;
+    margin-top: 10%;
+    background-color:lightpink;
+
+}
+#here h3{
+    color: black;
+    text-decoration: none;
+}

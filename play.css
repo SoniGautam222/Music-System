@@ -1,0 +1,273 @@
+/* Navbar section */
+*{
+   
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #081232;
+}
+nav{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:0 1rem 1rem;
+}
+.logo{
+    height:60px;
+    width: 60px;
+    display: flex;
+     /* margin-left: 50px; */
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+
+}
+.fav{
+   height: 8vh;
+   width: 100px;
+}
+.search{
+    display: flex;
+    padding-right: 90px;
+    justify-content: space-between;
+}
+
+/* Main section */
+
+.main-body{
+    display: flex;
+    height: 50vh;
+    width: 60vw;
+    margin-top: 2%;
+    margin-left: 70px;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    background-color: #121f48;
+ 
+}
+.main-image img{
+    height: 100%;
+    width: 250px;
+    opacity: 0.7;
+}
+.pic-desc{
+    margin-top: 50px;
+    margin-left: 30px;
+    /* border: 2px solid black; */
+    height: 50%;
+}
+.pic-desc p{
+    color: azure;
+}
+/* play all part */
+.play-all{
+
+    height: 50%; 
+    margin-top: 20px;
+}
+.play-all-box{
+  
+    margin-top: 20px;
+    height: 80%;
+    width: 50%;
+    background-image: linear-gradient(90deg,blue,purple);
+}
+.play-all-box h4{
+    text-align: center;
+    margin-top: 10px;
+}
+/* main part 2 */
+.long-box{
+    height: 60px;
+    width: 60%;
+    margin-left: 70px;
+    margin-top: 5px;
+    /* border: 2px solid black;  */
+    display: flex;
+    background-color: #141228;
+
+}
+.number{
+    /* display: flex; */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.long-box-img{
+    display: flex;
+    height: 100%;
+    width: 13%;
+}
+.time{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black;  */
+}
+.time p{
+    text-align: center;
+    margin-top: 10px;
+}
+.heart{
+    height: 80%;
+    width: 8%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 40px;
+    /* border: 2px solid black; */
+
+}
+.plus{
+    height: 80%;
+    width: 8%;
+    text-align: center;
+    margin-top: 10px;
+    /* margin-left: 40px; */
+    /* border: 2px solid black; */
+
+}
+.long-box-desc-2{
+    width: 62%;
+    /* border: 2px solid black; */
+}
+/* aside sec */
+.similar-artist{
+    height: 100vh;
+    width: 280px;
+    /* border: 2px solid black; */
+    margin-left: 170px;
+      
+    /* display: flex; */
+}
+.heading-part{
+    height: 5%;
+    width: 100%;
+  
+    /* text-align: center; */
+    /* display: flex; */
+
+}
+
+.similar-artist-box{
+    height:5%;
+    width: 100%;
+   
+}
+.content{
+    margin-top: 10px;
+    height: 12%;
+    width: 100%;
+   
+    display: flex;
+}
+.content-img img{
+    height: 100%;
+    width: 100px;
+  
+
+}
+.content-part{
+    height: 70%;
+    width: 200px;
+    
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.content-time{
+    height: 70%;
+    width: 20%;
+   
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+/* simliar playlist */
+.playlist-number{
+    height: 40px;
+    width: 20px;
+    display: flex;
+  
+   
+}
+.playlist-image img{
+    height: 70px;
+    width: 60px;
+    /* display: flex; */
+    margin-left: 15px;
+}
+.playlist-image{
+    display: flex;
+}
+.playlist-desc{
+    height: 10px;
+    width: 70px;
+    /* border: 2px solid black; */
+}
+.heart{
+    margin-left: 180px;
+    margin-top: 30px;
+   text-align: end;
+}
+.playlist-conatiner{
+    margin-top: 8px;
+    /* border: 2px solid black; */
+    height: 80px;
+   
+}
+/* footer part */
+.footer{
+ 
+    display: flex;
+    background-color: #121520;
+    height: 60px;
+   position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.footer-img{
+    display: flex;
+}
+.footer-img img{
+    margin-top: 10px;
+    height: 80%;
+    margin-left: 80px;
+    width: 100px;
+    
+}
+.footer-desc{
+    margin-top: 20px;
+    display: flex;
+}
+.fa-regular{
+    margin-top: 20px;
+}
+.fa-sharp{
+    color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.footer-div-2-content{
+    height: 100%;
+    width: 600px;
+    text-align: center;
+    /* border: 2px solid black; */
+
+}
+.fa-shuffle{
+    margin-right: 40px;
+}
+.fa-backward-step{
+    margin-right: 40px;
+}
+.fa-circle-play{
+    margin-right: 40px;
+}
+
+.fa-forward-step{
+    margin-right: 40px;
+}

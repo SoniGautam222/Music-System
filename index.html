@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/12a41c30dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Music Player</title>
+  </head>
+  <body>
+
+    
+    <!-- header section -->
+    <header class="hearder-sec">
+      <nav>
+        <div class="logo">
+          <img src="images/logo.png" alt="logo" />
+          &nbsp;
+          <p>Play <br /><b>Studio</b></p>
+        </div>
+
+        <div class="fav">
+          <p>Favourites</p>
+        </div>
+        <div class="search">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text"  name="seacrh" id="search" placeholder="Search..."/>        
+            
+            <i class="fa-solid fa-microphone"></i>
+          </div>
+
+          <div class="bell">
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <i class="fa-solid fa-bell"></i>
+          </div>
+
+          <div class="user">
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <i class="fa-solid fa-circle-user"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main section -->
+
+    <main>
+      <div class="box">
+        <img class="box1" src="images/first.jpg" alt="sidhu-moosewala" />
+      </div>
+      <div class="box">
+        <img src="images/honey.jpg" alt="sidhu-moosewala" />
+      </div>
+      <div class="box">
+        <img src="images/raftaar.jpg" alt="sidhu-moosewala" />
+      </div>
+
+
+   <!-- /* Aside part */
+/* aside section where there is the playlist */ -->
+      
+<aside class="aside-section">
+
+  <div class="queue">
+    <h1 class="queue-name">Queue</h1>
+   <div class="drop-down">
+    Queue &emsp; &emsp; &emsp;
+   <a href="#here"><i class="fa-sharp fa-solid fa-caret-down"></i> </a>
+
+   <div id="here">
+    <a href="#"><h3>Add to Favourites</h3>
+    <h3>
+      Add to the queue
+    </h3>
+    <h3>
+      back
+    </h3>
+  </a>
+   
+   </div>
+   </div>
+  </div> 
+
+  <div class="playist-items">
+    <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>01</h1>
+      <div class="playlist-image">
+        <img src="images/all.jpg" alt="" >
+        <div class="playlist-desc"><h4>Sidhu </h4><br>
+        <p>Punjabi singer</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>02</h1>
+      <div class="playlist-image">
+        <img src="images/raftaar.jpg" alt="" >
+        <div class="playlist-desc"><h4>Raftaar </h4><br>
+        <p>Punjabi Rapper</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>03</h1>
+      <div class="playlist-image">
+        <img src="images/bad.jpg" alt="" >
+        <div class="playlist-desc"><h4>Badshaah </h4><br>
+        <p>Punjabi Rapper</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>04</h1>
+      <div class="playlist-image">
+        <img src="images/honey.jpg" alt="" >
+        <div class="playlist-desc"><h4>honey </h4><br>
+        <p>Punjabi singer</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>05</h1>
+      <div class="playlist-image">
+        <img src="images/ed.jpg" alt="" >
+        <div class="playlist-desc"><h4>Edsheeran </h4><br>
+        <p>English singer</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>06</h1>
+      <div class="playlist-image">
+        <img src="images/mc.jpg" alt="" >
+        <div class="playlist-desc"><h4>Mc-stan </h4><br>
+        <p>Rapper</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>07</h1>
+      <div class="playlist-image">
+        <img src="images/all.jpg" alt="" >
+        <div class="playlist-desc"><h4>Sidhu </h4><br>
+        <p>Punjabi singer</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>08</h1>
+      <div class="playlist-image">
+        <img src="images/raftaar.jpg" alt="" >
+        <div class="playlist-desc"><h4>Raftaar </h4><br>
+        <p>Punjabi Rapper</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>09</h1>
+      <div class="playlist-image">
+        <img src="images/bad.jpg" alt="" >
+        <div class="playlist-desc"><h4>Badshaah </h4><br>
+        <p>Punjabi Rapper</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>10</h1>
+      <div class="playlist-image">
+        <img src="images/honey.jpg" alt="" >
+        <div class="playlist-desc"><h4>honey </h4><br>
+        <p>Punjabi singer</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>11</h1>
+      <div class="playlist-image">
+        <img src="images/ed.jpg" alt="" >
+        <div class="playlist-desc"><h4>Edsheeran </h4><br>
+        <p>English singer</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>12</h1>
+      <div class="playlist-image">
+        <img src="images/mc.jpg" alt="" >
+        <div class="playlist-desc"><h4>Mc-stan </h4><br>
+        <p>Rapper</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>13</h1>
+      <div class="playlist-image">
+        <img src="images/all.jpg" alt="" >
+        <div class="playlist-desc"><h4>Sidhu </h4><br>
+        <p>Punjabi singer</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>14</h1>
+      <div class="playlist-image">
+        <img src="images/raftaar.jpg" alt="" >
+        <div class="playlist-desc"><h4>Raftaar </h4><br>
+        <p>Punjabi Rapper</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>15</h1>
+      <div class="playlist-image">
+        <img src="images/bad.jpg" alt="" >
+        <div class="playlist-desc"><h4>Badshaah </h4><br>
+        <p>Punjabi Rapper</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>16</h1>
+      <div class="playlist-image">
+        <img src="images/honey.jpg" alt="" >
+        <div class="playlist-desc"><h4>honey </h4><br>
+        <p>Punjabi singer</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>17</h1>
+      <div class="playlist-image">
+        <img src="images/ed.jpg" alt="" >
+        <div class="playlist-desc"><h4>Edsheeran </h4><br>
+        <p>English singer</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="playlist-conatiner">
+
+    <div class="playlist-number">
+      <h1>18</h1>
+      <div class="playlist-image">
+        <img src="images/mc.jpg" alt="" >
+        <div class="playlist-desc"><h4>Mc-stan </h4><br>
+        <p>Rapper</p>
+      </div>
+      <div class="heart"><i class="fa-regular fa-heart"></i></div>
+      </div>
+    </div>
+  </div>  
+</div>
+</aside>
+   </main>
+   
+
+    <!-- Latest Relase -->
+    <div class="latest-rel">
+      <h3>Latest Releases</h3>
+
+      <div class="part-one">
+        <div class="picture-desc">
+          <!-- inside the part of the latest release -->
+
+          <div class="pic">
+            <div class="image-sidhu"><a href="play.html"><img src="images/all.jpg" alt="sidhu" /></a></div>
+            <div class="singer-info">
+              <h4>Sidhu</h4>
+              <p>25 June,2023</p>
+            </div>
+          </div>
+
+          <div class="options">
+            <input type="checkbox" name="" id="" hidden />
+            <label><i class="fa-solid fa-ellipsis"></i></label>
+            <p>4:44</p>
+          </div>
+        </div>
+
+        <div class="picture-desc">
+          <!-- inside the part of the latest release -->
+
+          <div class="pic">
+            <div class="image-sidhu"><a href="play.html"><img src="images/all.jpg" alt="sidhu" /></a></div>
+            <div class="singer-info">
+              <h4>Sidhu</h4>
+              <p>25 June,2023</p>
+            </div>
+          </div>
+
+          <div class="options">
+            <input type="checkbox" name="" id="here" hidden />
+            <label><i class="fa-solid fa-ellipsis"></i></label>
+            
+            <p>4:44</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- bottom part of the latest relases -->
+      <div class="part-two">
+        <div class="picture-desc">
+          <!-- inside the part of the latest release -->
+
+          <div class="pic">
+            <div class="image-sidhu"><a href="play.html"><img src="images/all.jpg" alt="sidhu" /></a></div>
+            <div class="singer-info">
+              <h4>Sidhu</h4>
+              <p>25 June,2023</p>
+            </div>
+          </div>
+
+          <div class="options">
+            <input type="checkbox" name="" id="" hidden />
+            <label><i class="fa-solid fa-ellipsis"></i></label>
+            <p>4:44</p>
+          </div>
+        </div>
+
+        <div class="picture-desc">
+          <!-- inside the part of the latest release -->
+
+          <div class="pic">
+            <div class="image-sidhu"><a href="play.html"><img src="images/all.jpg" alt="sidhu" /></a></div>
+            <div class="singer-info">
+              <h4>Sidhu</h4>
+              <p>25 June,2023</p>
+            </div>
+          </div>
+
+          <div class="options">
+            <input type="checkbox" name="" id="" hidden />
+            <label><i class="fa-solid fa-ellipsis"></i></label>
+            <p>4:44</p>
+          </div>
+        </div>
+      </div>
+    <!-- Popular Artist Images -->
+    <div class="popular-artist">
+      <h3>Popular Artist</h3>
+
+      <div class="artist-part">
+        <div class="artist-images">
+          <a href="play.html"> <img src="images/all.jpg" alt="sidhu" /></a>
+          <p class="name-of-the-artist">Sidhu Moosewala</p>
+        </div>
+        <div class="artist-images">
+          <a href="play.html"><img src="images/all.jpg" alt="sidhu" /></a>
+          <p class="name-of-the-artist">Sidhu Moosewala</p>
+        </div>
+
+        <div class="artist-images">
+          <a href="play.html">  <img src="images/Raftaar.webp" alt="sidhu" /></a>
+          <p class="name-of-the-artist">Raftaar</p>
+        </div>
+
+        <div class="artist-images">
+          <a href="play.html"><img src="images/bad.jpg" alt="sidhu" /></a>
+          <p class="name-of-the-artist">Badshaah</p>
+        </div>
+
+        <div class="artist-images">
+          <a href="play.html"> <img src="images/all.jpg" alt="sidhu" /></a>
+          <p class="name-of-the-artist">Sidhu Moosewala</p>
+        </div>
+
+        <div class="artist-images">
+          <a href="play.html">  <img src="images/bad.jpg" alt="sidhu" /></a>
+          <p class="name-of-the-artist">Badshaah</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Music station part -->
+    <div class="music-station">
+      <img  class="music-station-image" src="images/musicstation.jpg" alt="music station"  />
+
+      <div class="msimg">
+        <img src="images/mic.jpg" alt="" />
+      </div>
+
+      <div class="msimg">
+        <img src="images/rap.jpg" alt="" />
+      </div>
+
+      <div class="msimg">
+        <img src="images/rap2.png" alt="" />
+      </div>
+
+      <div class="msimg">
+        <img src="images/love.png" alt="" />
+      </div>
+
+      <div class="msimg">
+        <img src="images/rap.jpg" alt="" />
+      </div>
+
+      <div class="msimg">
+        <img src="images/mic.jpg" alt="" />
+      </div>
+    </div>
+
+    <!-- three images together in a row -->
+    <div class="three-images">
+      <div class="party">
+        <a href="#"><img class="img1" src="images/party.jpg" alt="party" /></a>
+        <div class="party-text"><h2>Party</h2></div>
+      </div>
+      
+      <div class="electronic">
+        <a href="#"><img class="img2" src="images/ele.jpg" alt="electronic" /></a>
+        <div class="ele-dec"><h2>electronic</h2></div>
+      </div>
+     
+      <div class="road-trip">
+        <a href="#"><img class="img3" src="images/road.jpg" alt="" srcset="" /></a>
+        <div class="road"><h2>Road <br/>Trip</h2></div>
+      </div>
+      
+    </div>
+
+    <div class="latest-English">
+      <h2>Latest English</h2>
+
+      <div class="eng-images">
+
+        <div class="element">
+          <img class="part" src="images/hindi1.jpg" >
+          <p>Onism <br/> 25 june, 2023</p></div>
+        
+
+          <div class="element">
+            <img class="part" src="images/hindi2.webp" >
+            <p>Onism <br/> 25 june, 2023</p></div>
+
+            <div class="element">
+              <img class="part" src="images/hindi3.jpg" >
+              <p>Onism <br/> 25 june, 2023</p></div>
+
+              <div class="element">
+                <img class="part" src="images/hindi1.jpg" >
+                <p>Onism <br/> 25 june, 2023</p></div>
+
+                <div class="element">
+                  <img class="part" src="images/hindi2.webp" >
+                  <p>Onism <br/> 25 june, 2023</p></div>
+
+                  <div class="element">
+                    <img class="part" src="images/hindi3.jpg" >
+                    <p>Onism <br/> 25 june, 2023</p></div>
+      </div>
+    </div>
+
+    <div class="latest-English">
+      <h2>Latest Hindi</h2>
+
+      <div class="eng-images">
+
+        <div class="element">
+          <img class="part" src="images/hindi1.jpg" >
+          <p>Onism <br/> 25 june, 2023</p></div>
+        
+
+          <div class="element">
+            <img class="part" src="images/hindi2.webp" >
+            <p>Onism <br/> 25 june, 2023</p></div>
+
+            <div class="element">
+              <img class="part" src="images/hindi3.jpg" >
+              <p>Onism <br/> 25 june, 2023</p></div>
+
+              <div class="element">
+                <img class="part" src="images/hindi1.jpg" >
+                <p>Onism <br/> 25 june, 2023</p></div>
+
+                <div class="element">
+                  <img class="part" src="images/hindi2.webp" >
+                  <p>Onism <br/> 25 june, 2023</p></div>
+
+                  <div class="element">
+                    <img class="part" src="images/hindi3.jpg" >
+                    <p>Onism <br/> 25 june, 2023</p></div>
+      </div>
+    </div>
+
+    <!-- footer part -->
+ <footer class="footer">
+  <div class="footer-div-1">
+<div class="footer-img"><img src="images/mc.jpg" alt="mc stan" >
+<div class="footer-desc"> <p><b>Mc-Stan</b><br>
+  Mc stan rapper</p></div>
+  <i class="fa-regular fa-heart"></i>
+  <i class="fa-sharp fa-solid fa-ban"></i>
+ 
+</div>
+</div>
+
+<div class="footer-div-2">
+
+  <div class="footer-div-2-content">
+    <i class="fa-solid fa-shuffle"></i>
+    <i class="fa-solid fa-backward-step"></i>
+    <i class="fa-regular fa-circle-play"></i>
+    <i class="fa-solid fa-forward-step"></i>
+    <i class="fa-solid fa-repeat"></i>
+  </div>
+ 
+ 
+
+</div>
+
+
+
+
+ </footer>
+
+
+
+  </body>
+</html>
